@@ -32,12 +32,12 @@ Solo hacerlo una vez.
 pip install -r requirements.txt
 ```
 
-### 📄 requirements.txt
+## 📄 requirements.txt
 Contiene: 
 - openai
 - python-dotenv
 
-### 🔐 Configuración de la API Key
+## 🔐 Configuración de la API Key
 
 1. En la raíz del proyecto crea un archivo llamado .env:
 
