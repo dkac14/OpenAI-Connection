@@ -14,7 +14,8 @@ response = client.chat.completions.create(
     model="openai/gpt-4o-mini",     # Modelo elegido desde OpenRouter
     messages=[
         {"role": "user", "content": "How to learn ML and AI using Python?"}
-    ]
+    ],
+    max_completion_tokens = 100
 )
 
 print(response.choices[0].message.content)    # Imprime la respuesta del modelo
